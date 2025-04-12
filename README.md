@@ -1,7 +1,5 @@
 # Quantum Machine Learning for SUSY Classification
 
-
-
 This repository contains an implementation of quantum machine learning techniques for classifying Supersymmetry (SUSY) particles in high-energy physics data. The project demonstrates how quantum computing can be leveraged for complex classification tasks in particle physics.
 
 ## Overview
@@ -136,4 +134,48 @@ quantum-ml/
    - Scaling to prepare data for quantum processing
    - Train/validation/test splitting for proper evaluation
 
-2. **Quantu
+2. **Quantum Circuit Design**:
+   - Data encoding using rotation gates
+   - Parameterized variational layers with rotation and entanglement operations
+   - Measurement and post-processing to obtain classification probabilities
+
+3. **Training Process**:
+   - Parameter optimization using gradient-based techniques
+   - Cost function minimization with regularization
+   - Model evaluation and selection based on validation performance
+
+4. **Results Analysis**:
+   - Comprehensive evaluation using multiple metrics
+   - Visualization of performance characteristics
+   - Comparative analysis across different configurations
+
+## Future Improvements
+
+- Implement noise models to simulate real quantum hardware
+- Explore quantum feature maps for improved data encoding
+- Test hybrid quantum-classical approaches
+- Scale to larger qubit counts as quantum simulators improve
+- Integrate with actual quantum hardware through cloud services
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Citation
+
+If you use this code in your research, please cite:
+
+```
+@software{quantum_ml_susy,
+  author = {Bhuvaneswar Reddy Vangimalla},
+  title = {Quantum Machine Learning for SUSY Classification},
+  year = {2025},
+  url = {https://github.com/bhuvaneshwar9/quantum-ml}
+}
+```
+
+## Acknowledgments
+
+- [PennyLane](https://pennylane.ai/) for the quantum machine learning framework
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) for the SUSY dataset
+- The quantum computing community for algorithms and inspiration
